@@ -6,6 +6,7 @@
         "COMPLETED": "Completed",
         "INCOMPLETE": "Incomplete",
         "IMPORTANT": "Important",
-        "PLACEHOLDER": "Create a Task ..."
+        "PLACEHOLDER": "Create a Task ...",
+        "PLACEHOLDER_UPDATE": "Update the Task ..."
     }
 }

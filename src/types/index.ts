@@ -1,6 +1,4 @@
-export type TTask = {
-  id: number;
-  content: string;
-  isCompleted: boolean;
-  isImportant: boolean;
-};
+import {z} from "zod";
+import {TodoSchema} from "@/models";
+
+export type TTask = z.infer<typeof TodoSchema>;
