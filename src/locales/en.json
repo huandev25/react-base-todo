@@ -1,0 +1,11 @@
+{
+    "translation": {
+        "APP_TITLE": "To Do List App",
+        "APP_DES": "To Do List App",
+        "ALL": "All",
+        "COMPLETED": "Completed",
+        "INCOMPLETE": "Incomplete",
+        "IMPORTANT": "Important",
+        "PLACEHOLDER": "Create a Task ..."
+    }
+}
