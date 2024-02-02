@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { FilterContainer } from "@/styles/FilterTabStyled";
 
 type TFilterTabProps = {
   items: string[];
@@ -13,7 +14,7 @@ const FilterTab = (props: TFilterTabProps) => {
     onSelectFilter && onSelectFilter(item);
   };
   return (
-    <div className="flex gap-3 my-3">
+    <FilterContainer>
       {items.map((item) => {
         return (
           <button
@@ -29,7 +30,7 @@ const FilterTab = (props: TFilterTabProps) => {
           </button>
         );
       })}
-    </div>
+    </FilterContainer>
   );
 };
 export default FilterTab;
